@@ -26,3 +26,9 @@ npm test
 
 ## AGENTS.md Summary
 AGENTS.md surveys existing customizable editors like Emacs with gptel, VS Code with Continue, Obsidian, and headless frameworks such as Tiptap and Lexical. The research concludes that no mainstream editor yet lets AI reconfigure the UI on the fly, but these tools show a practical path. It also sketches how an LLM could generate and safely load extensions in a sandboxed environment.
+
+## Documentation
+- [Development Plan](DEV_PLAN.md)
+- [File Structure Plan](FILE_STRUCTURE.md)
+- [UI/UX Plan](UI_UX_PLAN.md)
+- [Sources Information](Sourses_info.md)
