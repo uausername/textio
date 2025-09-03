@@ -6,7 +6,7 @@ An AI-driven, highly customizable text editor that starts from a minimal interfa
 Our goal is to create a "blank" editor where an LLM can add or remove panels, commands, and behaviors on demand, so every user can shape the environment to their workflow.
 
 ## Status
-The project is in an early research phase. Documentation captures architectural exploration, and the MVP will likely be built on **Tiptap**. There is no runnable code yet.
+An initial Tiptap prototype with a basic slash-command palette is now available. The project remains early-stage, but you can run the editor locally.
 
 ## Roadmap
 - Build a minimal Tiptap-based prototype demonstrating dynamic AI-generated extensions via slash commands.
@@ -18,10 +18,9 @@ The project is in an early research phase. Documentation captures architectural 
 ```bash
 git clone <repo-url>
 cd textio
-# once code is available
 npm install
-npm start
-npm test
+npm run dev   # start development server
+npm test      # run placeholder tests
 ```
 
 ## AGENTS.md Summary

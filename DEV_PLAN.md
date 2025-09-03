@@ -8,7 +8,7 @@ This document outlines milestones for building the AI‑customizable text editor
    - Define sandbox model for executing AI-generated code safely (evaluate QuickJS vs WebContainers).
    - Draft minimal API contract that extensions can access.
 2. **Minimal Prototype**
-   - Render a minimal Tiptap instance with slash-command palette.
+   - ~~Render a minimal Tiptap instance with slash-command palette.~~ *(completed; basic prototype in repo)*
    - Wire an LLM endpoint that proposes extensions.
    - Allow LLM to register a simple command extension in a sandbox.
 3. **Extension Sandbox**
