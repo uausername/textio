@@ -1,0 +1,21 @@
+{
+  "name": "textio",
+  "version": "1.0.0",
+  "description": "An AI-driven, highly customizable text editor that starts from a minimal interface and lets users grow functionality with AI assistance.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tiptap/core": "^3.3.1",
+    "@tiptap/starter-kit": "^3.3.1",
+    "@tiptap/suggestion": "^3.3.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.4"
+  }
+}
